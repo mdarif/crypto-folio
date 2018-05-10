@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import '../css/App.css'
 import SimpleTable from '../js/simple-table'
-//import FormFields from '../js/add-transaction'
+import AddTransaction from '../js/add-transaction'
 
 class App extends Component {
   render() {
@@ -12,6 +12,7 @@ class App extends Component {
 
         <h2>Show Transactions</h2>
         <h3>Total Portfolio Value</h3>
+        <AddTransaction />
         <SimpleTable />
       </div>
     );
