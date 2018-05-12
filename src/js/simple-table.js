@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import '../css/bootstrap.min.css';
 
-export default class SimpleTable extends React.Component {
+export default class SimpleTable extends Component {
   render() {
     return <table className="table table-striped table-dark">
     <thead>
